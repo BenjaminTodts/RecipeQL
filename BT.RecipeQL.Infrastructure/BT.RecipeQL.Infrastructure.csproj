@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="0.17.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GraphQL\" />
+    <Folder Include="GraphQL\Types\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BT.RecipeQL.Domain\BT.RecipeQL.Domain.csproj" />
+  </ItemGroup>
+</Project>

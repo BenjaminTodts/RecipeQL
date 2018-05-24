@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT.RecipeQL.Domain", "BT.RecipeQL.Domain\BT.RecipeQL.Domain.csproj", "{A01DBB1C-D610-4791-A5BE-622E9F312EC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT.RecipeQL.Infrastructure", "BT.RecipeQL.Infrastructure\BT.RecipeQL.Infrastructure.csproj", "{B7FB0CC2-1492-445E-96BA-F4F92620E67B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{A01DBB1C-D610-4791-A5BE-622E9F312EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A01DBB1C-D610-4791-A5BE-622E9F312EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A01DBB1C-D610-4791-A5BE-622E9F312EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7FB0CC2-1492-445E-96BA-F4F92620E67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FB0CC2-1492-445E-96BA-F4F92620E67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FB0CC2-1492-445E-96BA-F4F92620E67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7FB0CC2-1492-445E-96BA-F4F92620E67B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
