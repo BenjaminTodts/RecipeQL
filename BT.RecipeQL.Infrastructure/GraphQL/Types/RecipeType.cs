@@ -8,7 +8,7 @@ namespace BT.RecipeQL.Infrastructure.GraphQL.Types
         public RecipeType()
         {
             Field(r => r.Name, nullable: false);
-            Field(r => r.Ingredients, nullable: false);
+            Field(r => r.Ingredients, type: typeof(ListGraphType<IngredientType>), nullable: false);
         }
     }
 }

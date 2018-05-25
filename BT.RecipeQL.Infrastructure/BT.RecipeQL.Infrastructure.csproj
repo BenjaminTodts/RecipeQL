@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="GraphQL\" />
     <Folder Include="GraphQL\Types\" />
+    <Folder Include="GraphQL\Queries\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BT.RecipeQL.Domain\BT.RecipeQL.Domain.csproj" />
